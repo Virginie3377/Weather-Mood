@@ -1,0 +1,267 @@
+/************************************************\
+==================================================
+
+1. Body
+2. Form
+3. Bouton
+4. Font
+5. Responsive
+==================================================
+\************************************************/
+
+/************************************************\
+==================================================
+1. Body
+==================================================
+\************************************************/
+
+body {
+    background-image: url('../img/sunset.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 0;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Questrial', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/************************************************\
+==================================================
+2. form
+==================================================
+\************************************************/
+form {
+    font-family: 'helvetica neue', sans-serif;
+    margin:0 auto;
+    padding: 20px 20px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    background-color: rgba(58,58,58,0.5);
+    border-radius: 100%;
+    border-bottom: solid 1px #000000;
+}
+.formulaire {
+    border: solid 1px #ffffff;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+
+}
+
+img {
+    float: left;
+    width: 23%;
+    height: 23%;
+    margin-left: 15px;
+
+}
+
+.text {
+    margin: 40px 0px 0px -90px;
+    color: #ffffff;
+    font-family: 'Didact Gothic', sans-serif;
+    float: left;
+    font-size: 19px;
+}
+
+
+.ville {
+    margin: 40px 100px;
+    width: 200px;
+    display: block;
+    text-align: center;
+    float: left;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 0;
+    border-bottom: solid 1px #000000;
+    transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+    background: rgba(255,255,255,0.7);
+
+}
+/************************************************\
+==================================================
+3. Bouton
+==================================================
+\************************************************/
+
+.bouton {
+    font-size:15px;
+    color:#ffffff;
+    padding:7px 7px;
+    -moz-box-shadow: 0px 0px 10px #343434;
+    -webkit-box-shadow: 0px 0px 10px #343434;
+    -o-box-shadow: 0px 0px 10px #343434;
+    box-shadow: 0px 0px 10px #343434;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 3px;
+    border: 1px solid #656565;
+    background:#cfcfcf;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cfcfcf", endColorstr="#656565");
+    background: -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#656565));
+    background: -webkit-linear-gradient(#cfcfcf, #656565);
+    background: -moz-linear-gradient(#cfcfcf, #656565);
+    background: -o-linear-gradient(#cfcfcf, #656565);
+    background: -ms-linear-gradient(#cfcfcf, #656565);
+    background: linear-gradient(#cfcfcf, #656565);
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px;
+    width: 200px;
+    color: white;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+
+ }
+
+/************************************************\
+==================================================
+4. Font
+==================================================
+\************************************************/
+
+h1 {
+    color: #ffffff;
+    font-family: 'helvetica neue', sans-serif;
+    text-align: center;
+    font-size: 55px;
+    font-weight: lighter;
+}
+
+
+h2 {
+    color: #ffffff;
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: 'helvetica neue', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: -40px;
+}
+h4 {
+    float: left;
+    color: #ffffff;
+    font-family: 'helvetica neue', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 28px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+h5 {
+    float: left;
+    color: #ffffff;
+    font-family: 'helvetica neue', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 28px;
+
+    margin-right: 5px;
+}
+/************************************************\
+==================================================
+5. Responsive
+==================================================
+\************************************************/
+
+@media only screen and (max-width:400px) {
+
+    body {
+
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: 900px;
+        margin:0 0;
+
+    }
+
+
+
+    form {
+        margin:0 auto;
+        padding: 10px 10px;
+        width: 250px;
+        height: 250px;
+        text-align: center;
+        background-color: rgba(58,58,58,0.5);
+        border-radius: 100%;
+        border-bottom: solid 1px #000000;
+    }
+    .formulaire {
+        border: solid 1px #ffffff;
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+
+    }
+
+    h1 {
+        font-size: 35px;
+
+    }
+    h3 {
+        font-size: 20px;
+        margin-top: -25px;
+    }
+
+    h4 {
+        font-size: 18px;
+        margin-left: 15px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    h5 {
+        font-size: 18px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+
+    img {
+        float: left;
+        width: 17%;
+        height: 17%;
+        margin-left: 5px;
+
+    }
+    .ville {
+        margin: 10px 25px;
+        width: 200px;
+        display: block;
+        text-align: center;
+        float: left;
+        border-radius: 3px;
+        border: none;
+        padding: 10px 0;
+        border-bottom: solid 1px #000000;
+        transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+        background: rgba(255,255,255,0.7);
+
+    }
+
+}
